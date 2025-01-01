@@ -1,0 +1,44 @@
+.programs{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 80px auto;
+        width: 90%;
+}
+
+.program img{
+        width: 100%;
+        display: block;
+        border-radius: 1rem;
+}
+
+.program{
+        flex-basis: 30%;
+        position: relative;
+}
+.caption{
+        border-radius: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 15, 152, 0.3);
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        flex-direction: column;
+        opacity: 0;
+        padding-top: 70%;
+        transition: 0.4s;
+}
+.caption img{
+        width: 3.75rem;
+        margin-bottom: 0.625rem;
+}
+.caption:hover{
+        opacity: 1;
+        padding: 0;
+}

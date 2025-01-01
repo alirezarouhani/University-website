@@ -1,0 +1,25 @@
+nav{
+        width: 100%;
+        /* background-color: darkcyan; */
+        color: white;
+        padding: 0.4rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+}
+
+.logo{
+         width: 10rem ;
+}
+
+nav ul li{
+        display: inline-block;
+        list-style: none;
+        font-size: 16px ;
+        /* margin: 5px 20px; */
+        margin: 0.3rem 1.2rem;
+}
