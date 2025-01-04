@@ -4,6 +4,8 @@ import Hero from './Component/Hero/Hero'
 import Programs from './Component/programs/Programs'
 import Title from './Component/Title/Title'
 import About from './Component/About/About'
+import StateTest from './Component/StateTest'
+
 
 function App() {
   return (
@@ -15,7 +17,6 @@ function App() {
                 <Programs/>
                 <About/>
         </div>
-       
     </>
   )
 }

@@ -5,7 +5,7 @@ import logo from '../../assets/logo.png'
 function Navbar(){
   return (
     <div>
-      <nav className='container'>
+      <nav className='container dark-nav'>
         <img src= {logo} alt="logo" className='logo'/>
         <ul>
             <li><a className="" href="">Home</a></li>

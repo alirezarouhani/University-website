@@ -23,3 +23,8 @@ nav ul li{
         /* margin: 5px 20px; */
         margin: 0.3rem 1.2rem;
 }
+
+.dark-nav{
+        background-color: rgb(67, 67, 177);
+        transition: 0.5s;
+}
