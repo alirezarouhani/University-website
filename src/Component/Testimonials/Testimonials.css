@@ -1,0 +1,65 @@
+.testimonials{
+        margin: 5rem auto;
+        position: relative; 
+}
+
+.next-btn, .back-btn{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        padding: 1rem;
+        width: 3rem;
+        border-radius: 50%;
+        background-color: rgb(67, 67, 177);
+}
+
+.back-btn{
+        right: auto;
+        left: 0;
+}
+
+.slider{
+        overflow: hidden;
+        margin: 0 4rem;
+}
+
+.slider ul{
+        /* background-color: blueviolet; */
+        width: 200%;
+        display: flex;
+        overflow-x: hidden;
+        transition: 0.5s;
+        translate: -25%;
+}
+.slider ul li{
+       list-style: none ;
+       width: 50%;
+       padding: 1.2rem;
+       
+}
+
+.slide{
+        box-shadow: 0 0 1.2rem rgba(0,0,0,0.08);
+        padding: 2.5rem;
+        border-radius: 0.7rem;
+        /* color: #676767; */
+        line-height: 1.4;
+}
+
+.slide img{
+        width: 4rem;
+        border-radius: 50%;
+        margin-right: 0.7rem;
+        border: 4px solid #212ea0;
+}
+.user-info{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.2rem;
+        font-size: 1rem;
+}
+
+.user-info h3{
+        color: rgb(67, 67, 177);;
+}

@@ -1,0 +1,22 @@
+.campus{
+        margin: 5rem auto;
+        width: 90%;
+        text-align: center;
+}
+
+.gallery{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2.5rem;
+}
+
+.gallery img{
+        width:23%;
+        border-radius: 0.7rem;
+}
+
+.dark-btn{
+        background-color: rgb(67, 67, 177);
+        color: white;
+}
