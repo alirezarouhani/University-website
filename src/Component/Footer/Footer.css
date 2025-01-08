@@ -1,0 +1,14 @@
+.footer{
+        margin: 0.7rem 0;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgb(180, 180, 180);
+        padding: 1rem 0;
+        color: rgb(107, 107, 107);
+}
+
+.footer ul li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 1.2rem;
+}
