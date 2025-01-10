@@ -8,7 +8,6 @@ import Campus from './Component/Campus/Campus'
 import Testimonials from './Component/Testimonials/Testimonials'
 import Contact from './Component/Contact/Contact'
 import Footer from './Component/Footer/Footer'
-import {Link} from 'react-scroll'
 
 
 function App() {

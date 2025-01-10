@@ -17,7 +17,7 @@ const Testimonials = () => {
           if(tx > -50){
                tx -= 25;
           }
-          slider.current.style.transform = `trans lateX(${tx}%)`;
+          slider.current.style.transform = `translateX(${tx}%)`;
      }
 
      function moveBackward(){

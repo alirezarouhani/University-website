@@ -1,3 +1,7 @@
+:root{
+        --navBgColor : rgb(67, 67, 177);
+}
+
 nav{
         width: 100%;
         /* background-color: darkcyan; */
@@ -16,15 +20,63 @@ nav{
          width: 10rem ;
 }
 
+.menu-icon{
+        display: none;
+}
+
 nav ul li{
         display: inline-block;
         list-style: none;
         font-size: 16px ;
-        /* margin: 5px 20px; */
-        margin: 0.3rem 1.2rem;
+        margin: 0.3rem 1.11rem;
 }
 
 .dark-nav{
-        background-color: rgb(67, 67, 177);
+        background-color: var(--navBgColor);
         transition: 0.5s;
+}
+
+
+/*------------------ Media queries */
+
+@media (max-width : 1050px){
+        .logo{
+                width: 8.2rem;
+        }
+
+        nav ul li{
+                margin: 0.3rem 0.8rem;
+        }
+}
+
+@media (max-width : 920px){
+        nav ul{ 
+                /* make the side menu visible */
+                position: fixed;
+                top:0;
+                right: 0px;
+                bottom: 0;
+                background-color: var(--navBgColor);
+                padding: 2.7rem 0;
+                width: 240px; 
+                transition: 0.5s; 
+        }
+
+        nav ul li{
+                display: block;
+                padding: 0.5rem 0.5rem;
+                
+        }
+        .menu-icon{
+                display: block;
+                margin: 15px 5px;
+                width: 2rem;
+                cursor: pointer;
+                z-index: 3;
+        }
+
+        .hide-mob-menu{
+                right: -241px;
+        }
+        
 }

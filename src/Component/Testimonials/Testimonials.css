@@ -12,6 +12,7 @@
         width: 3rem;
         border-radius: 50%;
         background-color: rgb(67, 67, 177);
+        cursor: pointer;
 }
 
 .back-btn{
