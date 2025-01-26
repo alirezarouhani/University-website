@@ -14,7 +14,7 @@ const Testimonials = () => {
 
      function moveForward(){
           // document.querySelector().classList = 
-          if(tx > -50){
+          if(tx > -75){
                tx -= 25;
           }
           slider.current.style.transform = `translateX(${tx}%)`;
@@ -42,10 +42,9 @@ const Testimonials = () => {
                                                      <span>Edusity, USA</span>
                                                 </div>
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                 Unde atque corrupti, veniam aspernatur debitis sit 
-                                                 distinctio, eum, quo ratione magni numquam quaerat error? Amet, laborum est! Excepturi quam tenetur assumenda.
-                                          </p>
+                                        <p>
+                                                Attending Eduro was the best decision I ever made. The faculty is incredibly supportive, and the campus environment is truly inspiring. I felt encouraged to explore my interests and challenged to push beyond my limits.
+                                        </p>
                                 </div>
                         </li>
                         <li>
@@ -57,10 +56,9 @@ const Testimonials = () => {
                                                      <span>Edusity, USA</span>
                                                 </div>
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                 Unde atque corrupti, veniam aspernatur debitis sit 
-                                                 distinctio, eum, quo ratione magni numquam quaerat error? Amet, laborum est! Excepturi quam tenetur assumenda.
-                                          </p>
+                                        <p>
+                                                 "The opportunities for personal and professional growth at Edusity are unmatched. From hands-on projects to internships, I’ve gained invaluable experience that’s set me up for success. Thanks to edusity.
+                                        </p>
                                 </div>
                         </li>
                         <li>
@@ -72,9 +70,8 @@ const Testimonials = () => {
                                                      <span>Edusity, USA</span>
                                                 </div>
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                 Unde atque corrupti, veniam aspernatur debitis sit 
-                                                 distinctio, eum, quo ratione magni numquam quaerat error? Amet, laborum est! Excepturi quam tenetur assumenda.
+                                        <p>
+                                        "From excellent facilities to the passionate professors, every aspect of my experience at edusity was surreal. I’ve had access to best technology, and the faculty’s commitment to student success has made all happen.
                                           </p>
                                 </div>
                         </li>
@@ -87,9 +84,8 @@ const Testimonials = () => {
                                                      <span>Edusity, USA</span>
                                                 </div>
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                 Unde atque corrupti, veniam aspernatur debitis sit 
-                                                 distinctio, eum, quo ratione magni numquam quaerat error? Amet, laborum est! Excepturi quam tenetur assumenda.
+                                        <p>
+                                                        "I couldn’t have asked for a better university to help me achieve my career goals. The network and resources here are amazing. The alumni network is strong, and the career fairs provide incredible opportunities.
                                           </p>
                                 </div>
                         </li>

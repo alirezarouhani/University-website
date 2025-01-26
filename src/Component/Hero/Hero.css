@@ -26,3 +26,30 @@
         margin: 10px auto 20px;
 
 }
+
+/* Media-query--------------------------- */
+
+@media (max-width : 920px){
+        .hero-text h1{
+                font-size: 2.5rem;
+        }
+}
+
+@media (max-width : 600px){
+        .hero-text h1{
+                font-size: 2rem;
+        }  
+        .hero-text p{
+                font-size: 0.9rem;
+        }
+}
+
+@media (max-width : 650px){
+        .programs{
+                flex-direction: column;
+        }
+        .program{
+                margin:1.2rem;
+                flex-basis: 100%;
+        }
+}

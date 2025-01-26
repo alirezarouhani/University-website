@@ -30,7 +30,7 @@ function Navbar(){
                         <li><Link to="hero" spy={true} smooth={true} offset={0} duration={500}>Home</Link></li>
                         <li><Link to="program" spy={true} smooth={true} offset={-260} duration={500}>Program</Link></li>
                         <li><Link to="about" spy={true} smooth={true} offset={-100} duration={500}>About us</Link></li>
-                        <li><Link to="campus" spy={true} smooth={true} offset={-280} duration={500}>Compus</Link></li>
+                        <li><Link to="campus" spy={true} smooth={true} offset={-280} duration={500}>Campus</Link></li>
                         <li><Link to="testimonials" spy={true} smooth={true} offset={-280} duration={500}>Testimonials</Link></li>
                         <li><Link to="contact" spy={true} smooth={true} offset={-280} duration={500}><button className='btn'>Contact us</button></Link></li>
                 </ul>

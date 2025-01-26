@@ -13,10 +13,8 @@ const About = () => {
       <div className="about-right">
         <h3>ABOUT UNIVERSITY</h3>
         <h2>Fostering Tomorrow's Leaders Today</h2>
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab facilis provident, cupiditate nisi quas similique. Qui, obcaecati. Perferendis, voluptates iste. Totam assumenda nam rem minima voluptatibus non dolore dolor vel.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque quod deleniti nostrum provident aliquam pariatur numquam nesciunt officiis earum unde ullam ducimus, amet minus debitis et commodi facere dicta laboriosam!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vero provident dolore numquam, nam maiores asperiores ullam soluta. Eaque culpa minus aut exercitationem veniam dolorum maiores eligendi alias numquam itaque!
-        Quidem laboriosam impedit magni, distinctio corporis dolorem facilis alias eius? Voluptatibus accusantium voluptates beatae quaerat ratione nobis vel nisi praesentium omnis illo atque, totam, asperiores id inventore voluptas corrupti eaque.</p>
+        <p> We believe that education extends beyond the classroom. Our vibrant campus offers a rich array of extracurricular activities, leadership opportunities, and global experiences to ensure that every student receives a well-rounded education. From student-run organizations and sports teams to volunteer programs and study-abroad options, there are countless ways to get involved and expand your horizons.</p>
+        <p> We are dedicated to fostering a collaborative environment where students not only excel academically but also develop their leadership skills, build lasting relationships, and make a positive impact on their communities.</p>
       </div>
     </div>
   )

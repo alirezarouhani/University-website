@@ -36,7 +36,7 @@ const Contact = () => {
     <div className='contact'>
         <div className="contact-col">
                 <h3>Send us a message <img src={msg_icon} alt="" /></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi veritatis quibusdam minus consequuntur tenetur quia adipisci voluptas nihil? Blanditiis, magni voluptatum sed fugiat ullam repellat iure. Sit facilis beatae dolores?</p>
+                <p>Have questions or need more information? Please fill out the form below, and our team will get back to you promptly. Whether you’re a prospective student, parent, or partner, we’re here to assist you. We look forward to connecting with you!</p>
                 <ul>
                         <li><img src={mail_icon} alt="" />Contact-us@eduro.com</li>
                         <li><img src={phone_icon} alt="" />+44 35 255 66</li>
